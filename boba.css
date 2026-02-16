@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(60, 59, 59);
+    background-color: #f7d69c;
+    animation: color_change 20s infinite alternate;
+}
+@keyframes color_change {
+    0% {
+        background-color: #e2ba75; /* Bright Red */
+    }
+    25% {
+        background-color: #eece6d; /* Vibrant Green */
+    }
+    50% {
+        background-color: #c9b180; /* Deep Blue */
+    }
+    75% {
+        background-color: #c5b18d; /* Bright Orange */
+    }
+    100% {
+        background-color: #f3dbaf; /* Back to Red */
+    }
+}
+
+p{
+    font-style: italic;
+}
+h1{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
