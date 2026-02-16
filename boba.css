@@ -7,6 +7,11 @@
     background-color: #f7d69c;
     animation: color_change 20s infinite alternate;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 @keyframes color_change {
     0% {
         background-color: #e2ba75; /* Bright Red */
@@ -31,4 +36,5 @@ p{
 h1{
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
